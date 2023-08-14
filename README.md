@@ -22,8 +22,9 @@ To get started with creating a custom circuit, follow the instructions below:
 
 Follow the steps below to execute the custom circuit creation:
 
-1. Generate a custom circuit using Circom by running: `npx hardhat circom`
-2. Deploy the circuit to the Mumbai network using the command: `npx hardhat run scripts/deploy.ts --network mumbai`
+1. Rename `.env.example` to `.env` and add your private key and make sure it has some test MATIC.
+2. Generate a custom circuit using Circom by running: `npx hardhat circom`
+3. Deploy the circuit to the Mumbai network using the command: `npx hardhat run scripts/deploy.ts --network mumbai`
 
 ## Authors
 
